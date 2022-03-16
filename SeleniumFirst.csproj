@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="WebDriverChromeDriver" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.1.0" />
+    <PackageReference Include="WebDriverChromeDriver" Version="2.10.0" />
+  </ItemGroup>
+</Project>
